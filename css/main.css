@@ -1,0 +1,43 @@
+body {
+  background-color: #006699;
+}
+
+.yellow {
+  background-color: #ffcc66;
+}
+
+.blue {
+  background-color: #006699;
+}
+
+.top {
+  font-family: 'Eczar', serif;
+  padding-top: 7%;
+}
+
+.icon:hover {
+  transform: scale(1.1);
+}
+
+h1 {
+  font-family: 'Permanent Marker', cursive;
+  color: #006699;
+}
+
+body, h2 {
+  font-family: 'Permanent Marker', cursive;
+  font-weight: 400;
+  color: #006699;
+}
+
+p {
+  color: #ffcc66;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+}
+
+body, a {
+  font-family: 'Permanent Marker', cursive;
+  color: #000;
+  text-decoration: none;
+}
