@@ -1,29 +1,17 @@
----
-summary: "Make a single page, coming soon website as a placeholder for your portfolio—but it should not say “coming soon” or “under construction” anywhere. Think of it as a business card website."
-time: "4 hours"
-deliverables: "1 HTML file, 1 CSS file, images"
----
+# Nick Brown
 
-# Coming soon page
+#### (http://nickbrowndesign.ca/)
 
-## Overview
+! []
 
-- Should contain the following information: your name, a brief bio, email address, social media links, photo or icon.
-- Make sure the website is flexible 320px – ~2500px.
-- **We’ll be putting it live—on your domain—next week.**
+Hi! My names Nick Brown, an Ottawa based graphic designer with a passion for web design, UX and Illustration.
+I grew up drawing the days away, so Graphic Design was the dream career for a kid who loved to create! Now I'm able to constantly create, think about new solutions to unique problems, and constantly grow as a designer. The idea of always having something new to work on and ideas to work with is what keeps me passionate about design, and I can't wait to keep doing just that!
 
----
-
-## Goal
-
-The included wireframe is an example of what you might do on large screen websites. *It’s up to you to design it for all screen sizes.*
-
-![](wireframe.png)
-
-**Obviously you should make it your own thing with your own style and brand.**
+- **[whatsup@nickbrowndesign.ca] (mailto:whatsup@nickbrowndesign.ca)**
+- [behance] (https://www.behance.net/ntgbrown)
+- [vimeo] (https://vimeo.com/user71123987)
+- [linkedin] (https://www.linkedin.com/in/nicholas-brown-66028b146/)
 
 ---
 
-## Hand in
-
-Show the teacher that it’s a live website—on your domain—at the end of next class.
+© Nick Brown Design
