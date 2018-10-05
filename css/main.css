@@ -1,32 +1,43 @@
 body {
-  background-color: #ffd633;
+  background-color: #006699;
 }
 
-.info {
+.yellow {
+  background-color: #ffcc66;
+}
+
+.blue {
+  background-color: #006699;
+}
+
+.top {
   font-family: 'Eczar', serif;
-  padding-top: 10%;
+  padding-top: 7%;
+}
+
+.icon:hover {
+  transform: scale(1.1);
 }
 
 h1 {
   font-family: 'Permanent Marker', cursive;
-  color: #254d74;
+  color: #006699;
 }
 
 body, h2 {
+  font-family: 'Permanent Marker', cursive;
   font-weight: 400;
-  color: #000;
+  color: #006699;
 }
 
-body, p {
-  color: #000;
-  font-weight: 400;
-}
-
-body, a:hover {
-  color: #254d74;
+p {
+  color: #ffcc66;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
 }
 
 body, a {
+  font-family: 'Permanent Marker', cursive;
   color: #000;
   text-decoration: none;
 }
