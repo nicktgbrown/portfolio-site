@@ -1,43 +1,26 @@
-body {
-  background-color: #006699;
-}
-
-.yellow {
-  background-color: #ffcc66;
-}
-
-.blue {
-  background-color: #006699;
-}
-
-.top {
-  font-family: 'Eczar', serif;
-  padding-top: 7%;
-}
-
-.icon:hover {
-  transform: scale(1.1);
-}
-
-h1 {
+header {
+  background-color: #9f9f9f;
   font-family: 'Permanent Marker', cursive;
-  color: #006699;
 }
 
-body, h2 {
-  font-family: 'Permanent Marker', cursive;
-  font-weight: 400;
-  color: #006699;
-}
-
-p {
-  color: #ffcc66;
+main, h2 {
   font-family: 'Roboto', sans-serif;
-  font-weight: 500;
+  text-align: center;
 }
 
-body, a {
-  font-family: 'Permanent Marker', cursive;
-  color: #000;
+nav, a {
   text-decoration: none;
+  color: #000;
+}
+
+nav, .nav {
+  font-family: 'Roboto', sans-serif;
+}
+
+nav, .name {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.banner {
+  font-weight: 300;
 }
