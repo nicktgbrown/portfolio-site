@@ -3,24 +3,56 @@ header {
   font-family: 'Permanent Marker', cursive;
 }
 
-main, h2 {
-  font-family: 'Roboto', sans-serif;
+main h2 {
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
 }
 
-nav, a {
+main a {
   text-decoration: none;
-  color: #000;
 }
 
-nav, .nav {
-  font-family: 'Roboto', sans-serif;
+nav a {
+  text-decoration: none;
+  color: #e6e6e6;
+  transition: all .2s ease-in-out
 }
 
-nav, .name {
+nav a:hover {
+  color: #fff;
+}
+
+nav .nav {
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav .name {
   font-family: 'Permanent Marker', cursive;
 }
 
 .banner {
   font-weight: 300;
+}
+
+.card {
+  background-color: #9f9f9f;
+  border-radius: 10px;
+}
+
+.grid, h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #fff;
+}
+
+.unit, a, h3 {
+  color: #fff;
+}
+
+.grid, a {
+  transition: all .2s ease-in-out;
+}
+
+.grid, a:hover {
+  transform: scale(1.05);
 }
