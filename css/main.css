@@ -18,6 +18,10 @@ nav a {
   transition: all .2s ease-in-out
 }
 
+.active {
+  color: #fff;
+}
+
 nav a:hover {
   color: #fff;
 }
@@ -28,6 +32,13 @@ nav .nav {
 
 nav .name {
   font-family: 'Permanent Marker', cursive;
+}
+
+footer h4 {
+  font-family: 'Quicksand', sans-serif;
+  color: #9f9f9f;
+  font-weight: 400;
+  padding-left: 9.9em;
 }
 
 .banner {
