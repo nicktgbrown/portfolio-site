@@ -1,6 +1,15 @@
 header {
   background-color: #9f9f9f;
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Quicksand', sans-serif;
+}
+
+p {
+  font-weight: 100;
+  font-family: 'Quattrocento', serif;
+}
+
+main h3 {
+  color: #000;
 }
 
 main h2 {
@@ -31,7 +40,7 @@ nav .nav {
 }
 
 nav .name {
-  font-family: 'Permanent Marker', cursive;
+  font-family: 'Quicksand', sans-serif;
 }
 
 footer h4 {
@@ -50,6 +59,15 @@ footer h4 {
   border-radius: 10px;
 }
 
+.card h3 {
+  color: #fff;
+}
+
+.card p {
+  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+}
+
 .grid, h3 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
@@ -66,4 +84,36 @@ footer h4 {
 
 .grid, a:hover {
   transform: scale(1.05);
+}
+
+.banner-2 {
+  background-color: #e6e6e6;
+}
+
+.banner-2 h2{
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  font-weight: 500;
+}
+
+.banner-3 {
+  background-color: #e6e6e6;
+}
+
+.banner-3 h2{
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+  font-weight: 500;
+}
+
+.goal {
+  border-radius: 10px;
+  border: 1px solid #000;
+  padding: 1em;
+  max-width: 28em;
+  margin: auto;
+}
+
+.goal h3 {
+  color: #000;
 }
