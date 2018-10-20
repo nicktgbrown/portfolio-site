@@ -103,8 +103,8 @@ footer h4 {
   font-weight: 500;
 }
 
-.banner-2 a {
-  color: #fff;
+.banner-2 a:hover {
+  opacity: .65;
 }
 
 .banner-3 {
