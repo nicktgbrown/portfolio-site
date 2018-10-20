@@ -1,5 +1,12 @@
+html {
+  background-color: #3284ad;
+}
+
+main {
+  background-color: #ffd175;
+}
+
 header {
-  background-color: #9f9f9f;
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -15,6 +22,8 @@ main h3 {
 main h2 {
   font-family: 'Quicksand', sans-serif;
   text-align: center;
+  font-weight: 400;
+  color: #3284ad;
 }
 
 main a {
@@ -45,17 +54,18 @@ nav .name {
 
 footer h4 {
   font-family: 'Quicksand', sans-serif;
-  color: #9f9f9f;
+  color: #fff;
   font-weight: 400;
   padding-left: 9.9em;
 }
 
 .banner {
-  font-weight: 300;
+  font-weight: 400;
+  background-color: #ffd175;
 }
 
 .card {
-  background-color: #9f9f9f;
+  background-color: #3284ad;
   border-radius: 10px;
 }
 
@@ -87,17 +97,21 @@ footer h4 {
 }
 
 .banner-2 {
-  background-color: #e6e6e6;
+  background-color: #ffd175;
 }
 
 .banner-2 h2{
   font-family: 'Quicksand', sans-serif;
-  color: #fff;
+  color: #3284ad;
   font-weight: 500;
 }
 
+.banner-2 a {
+  color: #3284ad;
+}
+
 .banner-3 {
-  background-color: #e6e6e6;
+  background-color: #3284ad;
 }
 
 .banner-3 h2{
@@ -110,10 +124,13 @@ footer h4 {
   border-radius: 10px;
   border: 1px solid #000;
   padding: 1em;
-  max-width: 28em;
   margin: auto;
 }
 
 .goal h3 {
   color: #000;
+}
+
+.case {
+  background-color: #fbfbfb;
 }

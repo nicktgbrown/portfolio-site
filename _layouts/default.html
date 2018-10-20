@@ -2,7 +2,7 @@
 <html lang="en-ca">
 <head>
   <meta charset="utf-8">
-  <title>Nick Brown Design</title>
+  <title>{% if page.title %}{{page.title}}・{% endif %}Nick Brown Design</title>
   <link href="favicon.ico" rel="shortcut icon">
   <link rel="apple-touch-icon" href="favicon-196.png">
   <meta name="viewport" content="...">
@@ -36,7 +36,7 @@
   <main>
   {{content}}
   </main>
-  <footer class="pad-t-2 max-length">
+  <footer class="pad-t-1-2 max-length">
     <ul class="list-group-inline gutter-1-4">
       <li>
         <a class="embed embed-4by3 gutter icon" href="mailto:whatsup@nickbrowndesign.ca">
