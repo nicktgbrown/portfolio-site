@@ -5,7 +5,7 @@
   <title>{% if page.title %}{{page.title}}・{% endif %}Nick Brown Design・Ottawa, Ontario</title>
   <link href="favicon.ico" rel="shortcut icon">
   <link rel="apple-touch-icon" href="favicon-196.png">
-  <meta name="viewport" content="...">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="{{site.baseurl}}../css/modules.css" rel="stylesheet">
   <link href="{{site.baseurl}}../css/grid.css" rel="stylesheet">
   <link href="{{site.baseurl}}../css/type.css" rel="stylesheet">
@@ -15,10 +15,10 @@
   <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
 </head>
 <body>
-  <header class="header island-1-2">
-      <nav class="max-length">
+  <header class="header island-1-8">
+      <nav class="gutter-1-2 pad-t-1-2 pad-b-1-2 max-length">
         <ul class="list-group-inline push-0">
-          <li class="gutter-2 gutter-2">
+          <li class="gutter">
             <a href="{{site.baseurl}}/index" class="giga active">Nick Brown Design</a>
           </li>
           <li class="gutter-1-4 nav">
@@ -36,40 +36,44 @@
   <main>
   {{content}}
   </main>
-  <footer class="max-length pad-t-1-2">
-    <ul class="list-group-inline gutter-1-4 push-0">
-      <li>
-        <a class="gutter-1-8 icon" href="mailto:whatsup@nickbrowndesign.ca">
-          <i class="icon i-48">
-            <img class="img-flex" src="{{site.baseurl}}/images/email.svg" alt="Email Me">
-          </i>
-        </a>
-      </li>
-      <li>
-        <a class="gutter-1-8 icon" href="https://www.behance.net/ntgbrown">
-          <i class="icon i-48">
-            <img class="img-flex" src="{{site.baseurl}}/images/behance-logo.svg" alt="Behance">
-          </i>
-        </a>
-      </li>
-      <li>
-        <a class="gutter-1-8 icon" href="https://vimeo.com/user71123987">
-          <i class="icon i-48">
-            <img class="img-flex" src="{{site.baseurl}}/images/vimeo-square-logo.svg" alt="Vimeo">
-          </i>
-        </a>
-      </li>
-      <li>
-        <a class="gutter-1-8 icon" href="https://www.linkedin.com/in/nicholas-brown-66028b146/">
-          <i class="icon i-48">
-            <img class="img-flex" src="{{site.baseurl}}/images/linkedin-logo.svg" alt="Linkedin">
-          </i>
-        </a>
-      </li>
-      <li>
-        <h4 class="mega">© Nick Brown Design</h4>
-      </li>
-   </ul>
+  <footer class="max-length pad-t-1-4 pad-b-1-2 gutter-1-4">
+    <div class="grid max-length">
+      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
+        <div class="grid grid-middle">
+          <div class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
+            <a class="gutter-1-8 icon right" href="mailto:whatsup@nickbrowndesign.ca">
+              <i class="icon i-32">
+                <img class="img-flex" src="{{site.baseurl}}/images/email.svg" alt="Email Me">
+              </i>
+            </a>
+          </div>
+          <div class="unit unit-xs-1-4-centered unit-s-1-4-centered unit-m-1-4-centered unit-l-1-4-centered unit-xl-1-4-centered">
+            <a class="gutter-1-8 icon" href="https://www.behance.net/ntgbrown">
+              <i class="icon i-32">
+                <img class="img-flex" src="{{site.baseurl}}/images/behance-logo.svg" alt="Behance">
+              </i>
+            </a>
+          </div>
+          <div class="unit unit-xs-1-4-centered unit-s-1-4-centered unit-m-1-4-centered unit-l-1-4-centered unit-xl-1-4-centered">
+            <a class="gutter-1-8 icon" href="https://vimeo.com/user71123987">
+              <i class="icon i-32">
+                <img class="img-flex" src="{{site.baseurl}}/images/vimeo-square-logo.svg" alt="Vimeo">
+              </i>
+            </a>
+          </div>
+          <div class="unit unit-xs-1-4 unit-s-1-4 unit-m-1-4 unit-l-1-4 unit-xl-1-4">
+            <a class="gutter-1-8 icon left" href="https://www.linkedin.com/in/nicholas-brown-66028b146/">
+              <i class="icon i-32">
+                <img class="img-flex" src="{{site.baseurl}}/images/linkedin-logo.svg" alt="Linkedin">
+              </i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="unit unit-xs-1-2 unit-s-1-2 unit-m-1-2 unit-l-1-2 unit-xl-1-2">
+        <h4 class="kilo right gutter-1-2">© Nick Brown Design</h4>
+      </div>
+    </div>
   </footer>
 </body>
 </html>
