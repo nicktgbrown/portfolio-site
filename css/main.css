@@ -142,3 +142,12 @@ footer h4 {
 .case {
   background-color: #fbfbfb;
 }
+
+.case h3 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+}
+
+.case p {
+  font-family: 'Quattrocento', serif;
+}
