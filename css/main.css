@@ -78,6 +78,17 @@ footer h4 {
   font-family: 'Quicksand', sans-serif;
 }
 
+.card-1 {
+  background-color: #98a3b2;
+  border-radius: 7px;
+  color: #fff;
+}
+
+.card-1 p {
+  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+}
+
 .grid h3 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
