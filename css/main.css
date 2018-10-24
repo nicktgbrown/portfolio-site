@@ -68,19 +68,60 @@ footer h4 {
 }
 
 .card {
-  background-color: #6fa8c5;
+  background-color: #93bed4;
   border-radius: 7px;
   color: #fff;
 }
 
-.card-2 {
-  background-color: #6fa8c5;
+.card p {
+  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card-1 {
+  background-color: #b59ac8;
   border-radius: 7px;
   font-family: 'Quicksand', sans-serif;
   color: #fff;
 }
 
-.card p {
+.card-1 p {
+  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card-2 {
+  background-color: #fd7c78;
+  border-radius: 7px;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+}
+
+.card-2 p {
+  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card-3 {
+  background-color: #78b7fd;
+  border-radius: 7px;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+}
+
+.card-3 p {
+  font-weight: 100;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.card-4 {
+  background-color: #fdbe78;
+  border-radius: 7px;
+  font-family: 'Quicksand', sans-serif;
+  color: #fff;
+}
+
+.card-4 p {
   font-weight: 100;
   font-family: 'Quicksand', sans-serif;
 }
@@ -150,4 +191,20 @@ footer h4 {
 
 .case p {
   font-family: 'Quattrocento', serif;
+}
+
+.button {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 400;
+  color: #fff;
+  background-color: #6fa8c5;
+  border-radius: 7px;
+  text-align: center;
+  margin-left: auto;
+  display: block;
+}
+
+.button:hover {
+  transform: scale(.97);
+  background-color: #81b3cd;
 }
