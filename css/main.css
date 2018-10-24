@@ -78,54 +78,6 @@ footer h4 {
   font-family: 'Quicksand', sans-serif;
 }
 
-.card-1 {
-  background-color: #b59ac8;
-  border-radius: 7px;
-  font-family: 'Quicksand', sans-serif;
-  color: #fff;
-}
-
-.card-1 p {
-  font-weight: 100;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.card-2 {
-  background-color: #fd7c78;
-  border-radius: 7px;
-  font-family: 'Quicksand', sans-serif;
-  color: #fff;
-}
-
-.card-2 p {
-  font-weight: 100;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.card-3 {
-  background-color: #78b7fd;
-  border-radius: 7px;
-  font-family: 'Quicksand', sans-serif;
-  color: #fff;
-}
-
-.card-3 p {
-  font-weight: 100;
-  font-family: 'Quicksand', sans-serif;
-}
-
-.card-4 {
-  background-color: #fdbe78;
-  border-radius: 7px;
-  font-family: 'Quicksand', sans-serif;
-  color: #fff;
-}
-
-.card-4 p {
-  font-weight: 100;
-  font-family: 'Quicksand', sans-serif;
-}
-
 .grid h3 {
   font-family: 'Quicksand', sans-serif;
   font-weight: 400;
