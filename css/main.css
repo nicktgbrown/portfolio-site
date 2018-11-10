@@ -56,6 +56,10 @@ nav .name {
   font-family: 'Quicksand', sans-serif;
 }
 
+footer {
+  background-color: #76accc;
+}
+
 footer h4 {
   font-family: 'Quicksand', sans-serif;
   color: #fff;
@@ -78,7 +82,7 @@ footer a:hover {
 }
 
 .card {
-  background-color: #6fa8c5;
+  background-color: #76accc;
   border-radius: 7px;
   color: #fff;
   font-family: 'Quicksand', sans-serif;
@@ -100,14 +104,28 @@ footer a:hover {
 }
 
 .card-1 {
-  background-color: #acb5c1;
-  border-radius: 7px;
+  background-color: #66cc99;
   color: #fff;
 }
 
-.card-1 p {
-  font-weight: 100;
-  font-family: 'Quicksand', sans-serif;
+.card-2 {
+  background-color: #ff9933;
+  color: #fff;
+}
+
+.card-3 {
+  background-color: #66cccc;
+  color: #fff;
+}
+
+.card-4 {
+  background-color: #ff6666;
+  color: #fff;
+}
+
+.card-5 {
+  background-color: #c5dce7;
+  color: #fff;
 }
 
 .unit a h3 {
