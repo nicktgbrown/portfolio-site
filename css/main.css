@@ -1,5 +1,5 @@
 html {
-  background-color: #6fa8c5;
+  background-color: #fbfbfb;
 }
 
 main {
@@ -88,8 +88,16 @@ footer a:hover {
   font-family: 'Quicksand', sans-serif;
 }
 
-.card:hover {
-  transform: scale(1.05);
+.nav-btn {
+  font-weight: 500;
+  border-radius: 7px;
+  border: 2px solid #fff;
+}
+
+.card:hover .nav-btn {
+  color: #76accc;
+  background-color: #fff;
+  border-radius: 7px;
 }
 
 .card p {
@@ -103,28 +111,8 @@ footer a:hover {
   color: #fff;
 }
 
-.card-1 {
-  background-color: #66cc99;
-  color: #fff;
-}
-
 .card-2 {
-  background-color: #ff9933;
-  color: #fff;
-}
-
-.card-3 {
-  background-color: #66cccc;
-  color: #fff;
-}
-
-.card-4 {
-  background-color: #ff6666;
-  color: #fff;
-}
-
-.card-5 {
-  background-color: #c5dce7;
+  background-color: #a7c6d6;
   color: #fff;
 }
 
@@ -141,7 +129,7 @@ footer a:hover {
 }
 
 .banner-2 {
-  background-color: #6fa8c5;
+  background-color: #76accc;
 }
 
 .banner-2 h2{
