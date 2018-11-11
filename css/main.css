@@ -191,3 +191,60 @@ footer a:hover {
   transform: scale(.97);
   background-color: #81b3cd;
 }
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  float: right;
+}
+
+.bar1, .bar2, .bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+  border-radius: 7px;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {opacity: 0;}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #fff;
+  margin-top: 4em;
+}
+
+.topnav #myLinks {
+  display: none;
+}
+
+.topnav a {
+  font-family: 'Quicksand', sans-serif;
+  background-color: #76accc;
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+}
+
+.topnav a:hover {
+  background-color: #fff;
+  color: black;
+}
