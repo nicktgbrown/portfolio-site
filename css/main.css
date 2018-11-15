@@ -293,3 +293,64 @@ footer a:hover {
   background-color: #fff;
   color: black;
 }
+
+@media only screen and (min-width: 18em) {
+
+  .banner {
+    padding-top: 5.4em;
+    padding-bottom: 7em;
+  }
+
+  .banner-down {
+    max-width: 12%;
+  }
+
+}
+
+@media only screen and (min-width: 25em) {
+
+  .banner {
+    padding-top: 6.4em;
+    padding-bottom: 8em;
+  }
+
+  .banner-down {
+    max-width: 10%;
+  }
+
+}
+
+@media only screen and (min-width: 38em) {
+
+  .banner {
+    padding-top: 5em;
+    padding-bottom: 6em;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .banner {
+    padding-top: 8em;
+    padding-bottom: 9.7em;
+  }
+
+  .banner-down {
+    max-width: 8%;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .banner {
+    padding-top: 3.6em;
+    padding-bottom: 4em;
+  }
+
+  .banner-down {
+    max-width: 7%;
+  }
+
+}
