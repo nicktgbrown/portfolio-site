@@ -164,6 +164,24 @@ footer a:hover {
 
 .banner-2 i:hover {
   opacity: .65;
+  animation-name: arrow-left;
+  animation-duration: 1.5s;
+}
+
+@keyframes arrow-left {
+  0%, 20%, 40% {transform: translateX(0);}
+  10%, 30% {transform: translateX(-.2em);}
+}
+
+.anim-right i:hover {
+  opacity: .65;
+  animation-name: arrow-right;
+  animation-duration: 1.5s;
+}
+
+@keyframes arrow-right {
+  0%, 20%, 40% {transform: translateX(0);}
+  10%, 30% {transform: translateX(.2em);}
 }
 
 .banner-3 {
@@ -303,8 +321,8 @@ footer a:hover {
 @media only screen and (min-width: 18em) {
 
   .banner {
-    padding-top: 5.4em;
-    padding-bottom: 7em;
+    padding-top: 7em;
+    padding-bottom: 9em;
   }
 
   .banner-down {
@@ -316,8 +334,8 @@ footer a:hover {
 @media only screen and (min-width: 25em) {
 
   .banner {
-    padding-top: 6.4em;
-    padding-bottom: 8em;
+    padding-top: 9em;
+    padding-bottom: 10.3em;
   }
 
   .banner-down {
@@ -329,8 +347,8 @@ footer a:hover {
 @media only screen and (min-width: 38em) {
 
   .banner {
-    padding-top: 5em;
-    padding-bottom: 6em;
+    padding-top: 8em;
+    padding-bottom: 9.5em;
   }
 
 }
@@ -338,8 +356,8 @@ footer a:hover {
 @media only screen and (min-width: 60em) {
 
   .banner {
-    padding-top: 8em;
-    padding-bottom: 9.7em;
+    padding-top: 11em;
+    padding-bottom: 12em;
   }
 
   .banner-down {
@@ -351,8 +369,8 @@ footer a:hover {
 @media only screen and (min-width: 90em) {
 
   .banner {
-    padding-top: 3.6em;
-    padding-bottom: 4em;
+    padding-top: 5em;
+    padding-bottom: 5.5em;
   }
 
   .banner-down {
