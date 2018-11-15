@@ -73,6 +73,25 @@ footer a:hover {
 
 .banner {
   font-weight: 400;
+  padding-top: 7em;
+  padding-bottom: 9.4em;
+}
+
+.banner-down {
+  max-width: 7%;
+  margin: auto;
+  padding-bottom: 4em;
+}
+
+@keyframes arrow-float {
+  0%, 20%, 40% {transform: translateY(0);}
+  10%, 30% {transform: translateY(-.4em);}
+}
+
+.arrow-float {
+  animation-name: arrow-float;
+  animation-iteration-count: infinite;
+  animation-duration: 3s;
 }
 
 .grid h3 {
@@ -193,6 +212,29 @@ footer a:hover {
   border: 2px solid #6fa8c5;
   color: #6fa8c5;
   font-weight: 500;
+}
+
+@keyframes fadeup {
+    0% {top: 10em; opacity: 0;}
+    50% {top: 0em;}
+    100% {opacity: 1;}
+}
+
+.fadeup {
+  animation-name: fadeup;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes fadein {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.fadein {
+  animation-name: fadein;
+  animation-duration: 1s;
+  animation-timing-function: ease-out;
 }
 
 .container {
