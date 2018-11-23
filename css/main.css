@@ -45,8 +45,9 @@ nav a {
 }
 
 nav a:hover {
-  opacity: .7;
   text-decoration: underline;
+  opacity: .6;
+  transition: all .15s ease-in-out;
 }
 
 nav .nav {
@@ -98,6 +99,17 @@ footer a:hover {
   animation-iteration-count: infinite;
   animation-duration: 3s;
   height: 3em;
+}
+
+@keyframes arrow-float-hover {
+  0%, 50%, 100% {transform: translateY(0);}
+  25%, 75% {transform: translateY(-.4em);}
+}
+
+.arrow-float:hover {
+  animation-iteration-count: 1;
+  animation-name: arrow-float-hover;
+  animation-duration: .8s;
 }
 
 .grid h3 {
