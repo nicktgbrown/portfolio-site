@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <link rel="shortcut icon" href="{{site.baseurl}}/images/favicon.ico">
+  <title>{% if page.title %}{{page.title}}・{% endif %}Nick Brown Design・Ottawa, Ontario</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="{{site.baseurl}}../css/modules.css" rel="stylesheet">
+  <link href="{{site.baseurl}}../css/grid.css" rel="stylesheet">
+  <link href="{{site.baseurl}}../css/type.css" rel="stylesheet">
+  <link href="{{site.baseurl}}../css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand:300,400,500,700" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Permanent+Marker" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Quattrocento" rel="stylesheet">
+</head>
+<body>
+
+  <main role="main">
+  {{content}}
+  </main>
+
+  <script>
+    function myFunction(x) {
+      x.classList.toggle("change");
+    }
+
+    function showmenu() {
+      var x = document.getElementById("myLinks");
+      if (x.style.display === "block") {
+      x.style.display = "none";
+      } else {
+      x.style.display = "block";
+      }
+    }
+  </script>
+</body>
+</html>
