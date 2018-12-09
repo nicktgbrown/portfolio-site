@@ -7,7 +7,7 @@ main {
 }
 
 .error {
-  background-image: linear-gradient(to bottom, transparent, #ffd175), url("../images/candy-corn.gif");
+  background-image: url(../images/404_404.svg);
   background-color: #ffd175;
   background-repeat: no-repeat;
   background-position: center;
