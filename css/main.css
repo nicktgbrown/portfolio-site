@@ -87,7 +87,7 @@ footer a:hover {
 
 .banner {
   font-weight: 400;
-  padding-top: 30vh;
+  padding-top: 27vh;
   min-height: 100vh;
 }
 
@@ -322,7 +322,7 @@ footer a:hover {
   display: none;
   overflow: hidden;
   background-color: #fff;
-  margin-top: 4.2em;
+  margin-top: 9.5vh;
   z-index: 10;
 }
 
