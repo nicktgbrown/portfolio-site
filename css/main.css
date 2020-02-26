@@ -54,9 +54,9 @@ main a {
 
 header a {
   text-decoration: none;
-  color: #FFBF40;
-  font-family: 'Quattrocento Sans', sans-serif;
-  transition: all .1s ease-in-out
+  color: #FD7951;
+  font-family: 'Arvo', serif;
+  transition: all .1s ease-in-out;
 }
 
 nav a:hover {
@@ -87,7 +87,10 @@ footer a:hover {
   opacity: .7;
 }
 
-.banner {
-  height: 100vh;
-  background-image: url("{{site.baseurl}}/images/gnome.gif");
+main {
+  margin: 0;
+}
+
+.max-height {
+  max-height: 100vh;
 }
