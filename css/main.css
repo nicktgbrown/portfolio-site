@@ -1,96 +1,67 @@
 body {
-  background-color: #fbfbfb;
-}
-
-main {
-  background-color: #fbfbfb;
-}
-
-.error {
-  background-image: url(../images/404_404.svg);
-  background-color: #ffd175;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 200vh;
-}
+  background-color: #1D5472;
+}``
 
 header {
   font-family: 'Quicksand', sans-serif;
-  background-color: #fff;
-  border-bottom: 1px solid #FFBF40;
 }
 
-header h1 {
+h1 {
   font-family: 'Quicksand', sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   color: #fff;
 }
 
-.side-nav {
-  min-height: 100vh;
-  padding-top: 30vh;
-  padding-left: 3em;
+h2 {
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+  color: #22B573;
 }
 
 p {
-  font-weight: 100;
-  font-family: 'Quattrocento', serif;
-}
-
-main h3 {
-  color: #000;
-}
-
-main h2 {
-  font-family: 'Quicksand', sans-serif;
-  text-align: center;
-  font-weight: 400;
-  color: #6fa8c5;
-}
-
-main a {
-  text-decoration: none;
-}
-
-header a {
-  text-decoration: none;
-  color: #FD7951;
-  font-family: 'Arvo', serif;
-  transition: all .1s ease-in-out;
-}
-
-nav a:hover {
-  opacity: .6;
-  transition: all .15s ease-in-out;
-}
-
-nav .nav {
-  font-family: 'Quicksand', sans-serif;
-}
-
-nav .name {
-  font-family: 'Quicksand', sans-serif;
-}
-
-footer {
-  background-color: #4d7589;
-}
-
-footer h4 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Open Sans', sans-serif;
   color: #fff;
-  font-weight: 400;
-  padding-left: 9.9em;
 }
 
-footer a:hover {
-  opacity: .7;
+a {
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 800;
+  color: #fff;
 }
 
-main {
-  margin: 0;
+a:hover {
+  color: #22B573;
+  transition: all 0.3s
 }
 
-.max-height {
+.button {
+  color: #22B573;
+  border: 4px solid #22B573;
+  border-radius: 18px;
+  font-family: 'Quicksand', sans-serif;
+  font-weight: 800;
+}
+
+.button:hover {
+  border: 4px solid #22B573;
+  color: #1D5472;
+  background-color: #22B573;
+  border-radius: 18px;
+  font-family: 'Quicksand', sans-serif;
+  transition: all 0.3s;
+}
+
+.coming-soon {
+  margin: 0 auto;
   max-height: 100vh;
+  padding-top: 13vh;
+  max-width: 65%;
+  text-align: center;
+  margin: none;
+}
+
+.coming-soon-logo {
+  max-width: 12em;
+  margin: auto;
 }
