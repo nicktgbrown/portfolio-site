@@ -55,7 +55,8 @@ a:hover {
 .coming-soon {
   margin: 0 auto;
   max-height: 100vh;
-  padding-top: 13vh;
+  margin-top: 10vh;
+  margin-bottom: 10vh;
   max-width: 65%;
   text-align: center;
   margin: none;
